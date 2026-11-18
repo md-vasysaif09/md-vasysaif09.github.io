@@ -1,69 +1,94 @@
-I have created a highly detailed and professional README.md file directly in your portfolio directory at 
-README.md
-.
+# Mohd Abdul Vasy Saif — DevOps & Cloud Engineer | Network Engineer
 
-Here is the markdown description for your GitHub repository:
+Portfolio website showcasing my professional experience, cloud infrastructure and CI/CD projects, enterprise networking labs, AI development workflows, and technical skill set.
 
-markdown
+🌐 **Live Website**: [md-vasysaif09.github.io](https://md-vasysaif09.github.io)
 
-
-# Mohd Abdul Vasy Saif — DevOps & Cloud Engineer Portfolio
-Welcome to the repository for my professional portfolio website. This project serves as a dynamic, interactive space showcasing my experience as a DevOps Engineer Intern at Talent Cogent, my academic projects in Machine Learning/Security, and my technical skill set.
-Live Demo: **[md-vasysaif09.github.io](https://md-vasysaif09.github.io)**
 ---
-## 🚀 Key Features
-* **⚡ Interactive Developer Terminal**: Emulates a `zsh` terminal where visitors can execute command-line instructions (e.g., `help`, `about`, `skills`, `experience`, `projects`, `certifications`, `contact`, `clear`) to explore my credentials dynamically.
-* **🎨 Premium Red & White Aesthetics**: Built with a clean, high-contrast red/white design language utilizing smooth transitions and layout scaling.
-* **📦 Dynamic Experience & Skills Filter**: Integrates a "skills and tools learned" calendar grid. Selecting a technology updates the main viewport highlight to the corresponding internship/project details page using smooth GreenSock (GSAP) state animations.
-* **✨ Smooth Micro-Interactions**: Utilizes a custom magnetic mouse follow-cursor, smooth scroll dynamics via **Lenis**, and entrance loading sequences.
-* **🐳 Floating DevOps Vector Branding**: Features original colored logos (AWS, Kubernetes, Docker, Terraform, Jenkins, Ansible, Git, Oracle) scattered natively in the background of all sections with customized opacity to maintain readable contrast.
-* **📱 Fully Responsive Design**: Seamlessly adapted for all screen widths (Mobile, Tablet, Desktop) using Tailwind CSS.
+
+## 👨‍💻 Professional Summary
+
+DevOps and Cloud Engineer with hands-on experience delivering CI/CD pipelines and AWS infrastructure for client web and mobile products. Built Jenkins and GitHub Actions pipelines on Docker and AWS EC2, and automated environments with Terraform and least-privilege IAM. Skilled in monitoring, logging, and visualization with CloudWatch, OpenSearch/Kibana, Grafana, and Zabbix. Strong networking base (AWS VPC, OSPF, VLANs, ACLs, NAT) for faster cloud and network troubleshooting.
+
 ---
-## 🛠️ Tech Stack & Integrations
-* **Core Structure**: HTML5, CSS3, ES6+ JavaScript
-* **Styling**: Tailwind CSS (via CDN)
-* **Animations**: GreenSock Animation Platform (GSAP), ScrollTrigger, Lenis Smooth Scroll
-* **Graphics & Icons**: Iconify (Vector Brand Logos), Lucide Icons
-* **Hosting**: GitHub Pages
+
+## 🛠️ Technical Skills
+
+- **Cloud (AWS)**: EC2, VPC, IAM, S3, RDS, Lambda, API Gateway, Application Load Balancer (ALB), Auto Scaling, CloudWatch, EKS, AWS CLI; working knowledge of Azure & GCP
+- **CI/CD & Containers**: GitHub Actions, Jenkins, Docker, Docker Compose, Kubernetes, Git, GitHub
+- **IaC & Automation**: Terraform (modular HCL), Ansible, Bash, Python
+- **Monitoring & Observability**: CloudWatch, CloudTrail, OpenSearch (Elasticsearch), Kibana, Prometheus, Grafana, Zabbix (network monitoring)
+- **Networking**: TCP/IP, IPv4/IPv6, Subnetting, VLANs, STP, EtherChannel, Inter-VLAN Routing, Static Routing, OSPF, ACLs, NAT/PAT, DHCP, DNS, VPN fundamentals
+- **Network Simulation Tools**: Cisco Packet Tracer
+- **App Deployment & Testing**: Google Play Console (organization & individual accounts), Android app deployment, Cypress (test automation), Postman (API testing & validation), manual testing
+- **Operating Systems & Security**: Linux (administration), Windows (basic troubleshooting), IAM least privilege, Security Groups, NACLs, VPC segmentation
+
 ---
-## 📂 Project Structure
-```text
-.
-├── index.html           # Core HTML skeleton, CSS variables, and JS logic
-├── README.md            # Repository documentation
-└── assets/
-    └── profile.jpg      # Profile portrait photo
-💻 Local Setup & Development
-To view or edit this project locally on your machine:
 
-Clone the Repository:
+## 💼 Work Experience
 
-bash
+### **DevOps Engineer** — SMCLOUDMYLE LLP (CloudMyle)
+*Sep 2026 – Present | Hyderabad, Telangana, India*
+- Automated build, test, and deployment of client web and mobile applications by building CI/CD pipelines with GitHub Actions and Docker.
+- Deployed and managed client applications on AWS (EC2, S3, RDS) and provisioned environments with Terraform.
+- Learned web and mobile application development while working as a DevOps Engineer, supporting developers with builds, environments, and releases.
+- Deployed applications to the Google Play Store by creating 2 Google Play developer accounts (one organization, one individual) and managing releases in Google Play Console.
 
+### **DevOps Engineer Apprentice** — Talent Cogent
+*Apr 2026 – Aug 2026 | Hyderabad, India*
+- Implemented an end-to-end CI/CD pipeline for a Python Flask application using Jenkins and Docker, deploying to AWS EC2 and aligning infrastructure changes with development team requirements.
+- Automated application build, containerization, and deployment on AWS EC2, reducing deployment time by 80% and improving application availability to 99%.
+- Troubleshot CI/CD pipeline failures (build errors, container image issues, deployment rollbacks) to maintain a consistent release cadence and minimize downtime.
+- Configured IAM roles/policies and Security Groups following least-privilege principles to keep deployment pipelines and infrastructure compliant with security best practices.
+- Monitored application and infrastructure health using Amazon CloudWatch metrics, alarms, and logs; documented deployment processes and runbooks for team reference.
 
-git clone https://github.com/md-vasysaif09/md-vasysaif09.github.io.git
-Navigate into the Directory:
+---
 
-bash
+## 🚀 Key Projects
 
+### **DevOps & Cloud Projects**
+1. **AWS Three-Tier Web Application Deployment**
+   - Designed and deployed a secure three-tier architecture on AWS using VPC, EC2, Application Load Balancer, Auto Scaling, and Amazon RDS.
+   - Configured Security Groups, Route Tables, Internet Gateway, and NAT Gateway for isolated networking; monitored performance with Amazon CloudWatch across multiple AZs.
+2. **Infrastructure as Code (Terraform)**
+   - Provisioned AWS infrastructure (EC2, Security Groups, S3) using reusable Terraform modules with state management and resource isolation.
+   - Applied working knowledge of extending IaC practices across Microsoft Azure and Google Cloud Platform.
+3. **Monitoring & Logging with CloudWatch and ELK**
+   - Centralized application and infrastructure logs in OpenSearch (Elasticsearch) and built Kibana dashboards for log analysis.
+   - Enabled AWS CloudTrail and indexed API events in OpenSearch to audit activity by user, resource, and time.
+   - Configured CloudWatch alarms and metric dashboards for CPU, memory, and error rates.
 
-cd md-vasysaif09.github.io
-Open the Project: Simply open the index.html file in any modern web browser (Chrome, Safari, Edge, Firefox).
+### **Networking Projects**
+1. **Small Office / SOHO Network Design and Implementation**
+   - Designed and implemented a complete small office network in Cisco Packet Tracer with VLAN segmentation, trunk ports, inter-VLAN routing (Router-on-a-Stick), DHCP, and NAT.
+2. **Enterprise Network with Router-Based Firewall**
+   - Secured enterprise network boundaries using Standard & Extended ACLs, NAT/PAT, and Zone-Based Policy Firewall (ZFW) on Cisco routing hardware.
+3. **Network Monitoring Lab (Zabbix)**
+   - Monitored network devices in Zabbix by configuring host profiles, triggers, and automated alerts to track device availability and prevent outages.
 
-📬 Contact & Networks
-Email: 
-md.vasysaif09@gmail.com
-Phone: +91 81432 85099
-Location: Hyderabad, Telangana, India
-LinkedIn: linkedin.com/in/vasysaif-devops
-GitHub: github.com/md-vasysaif09
+---
 
+## 🤖 Website & App Development Using AI and Testing
 
-***
-### How to push it up to GitHub:
-To ensure this `README.md` is uploaded along with your website files, simply include it when adding and committing your changes:
-```powershell
-cd "C:\Users\saif\.gemini\antigravity\scratch\portfolio"
-git add .
-git commit -m "Add index.html, assets, and README.md"
-git push -u origin main
+- **Website Development with AI**: Complete websites built using AI tools, from layout to live production on AWS with CI/CD and monitoring.
+- **Application Development with AI**: Web and mobile apps developed with AI tools and released to Google Play Store using Google Play Console.
+- **Testing & Quality Assurance**: Manual user flow validation, automated regression test suites with **Cypress**, and API verification with **Postman**.
+
+---
+
+## 🎓 Education & Certifications
+
+- **B.Tech, Computer Science and Engineering** — Shadan College of Engineering and Technology, Hyderabad *(Aug 2021 – Jul 2025)*
+- **Intermediate (MPC)** — MS Junior College *(2021)*
+- **Secondary School Certificate (SSC)** — Sri Gayathri School *(2019)*
+- **Certifications**: OCI Training, Cloud Application Development, DevOps Engineer Apprentice (Talent Cogent), AWS Certified Solutions Architect (In progress, 85%)
+
+---
+
+## 📬 Contact
+
+- **Email**: [md.vasysaif09@gmail.com](mailto:md.vasysaif09@gmail.com)
+- **Phone**: [+91 8143285099](tel:+918143285099)
+- **LinkedIn**: [linkedin.com/in/vasysaif-devops](https://linkedin.com/in/vasysaif-devops)
+- **GitHub**: [github.com/md-vasysaif09](https://github.com/md-vasysaif09)
+- **Portfolio**: [md-vasysaif09.github.io](https://md-vasysaif09.github.io)
